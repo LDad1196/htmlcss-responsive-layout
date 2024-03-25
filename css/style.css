@@ -8,3 +8,91 @@
 
 /********** GENERAL STYLES **********/
 
+h4 {
+    font-size: 1.5rem;
+    color: #2595fd;
+}
+.m-bottom {
+    margin-bottom: 1rem;
+}
+/********** HEADER **********/
+/********** NAVBAR **********/
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #0084fd;
+    color: white;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.logo,
+.navbar {
+    background-color: grey ;
+    margin: 0 1rem;
+}
+
+/********** JUMBOTRON **********/
+
+#jumbotron {
+    padding: 6rem 0;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+.bigger-jumbocard,
+.jumbocard {
+    background-color: lightblue;
+    border-radius: 10px;
+    width: 100%; 
+    margin: 3rem 0;
+}
+
+.m-bottom-jumbocard {
+    margin-bottom: 1rem;
+}
+
+/********** MEDIA QUERIES **********/
+@media screen and (min-width: 768px){
+    .nav {
+        width: 70%;
+    }
+
+    #jumbotron {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .bigger-jumbocard {
+        width: 65%;
+    }
+    .jumbocard {
+        width: 31%;
+    }
+}
+
+@media screen and (min-width: 1160px){
+    .nav {
+        width: 70%;
+    }
+
+    #jumbotron {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap; 
+        gap: 1rem;
+    }
+
+    .bigger-jumbocard {
+        width: 65% ;
+    }
+    .jumbocard {
+        width: 31%;
+    }
+}
