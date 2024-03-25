@@ -183,6 +183,20 @@ nav {
     color: #9792e4;
 }
 
+/********** FOOTER *********/
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.container-footer {
+    margin: 0 auto;
+    width: 95%;
+}
+
 /********** MEDIA QUERIES **********/
 
 @media screen and (min-width: 768px){
@@ -235,6 +249,7 @@ nav {
     .about-us.card {
         width: 20%;
     }
+
 }
 
 @media screen and (min-width: 1160px){
@@ -264,7 +279,8 @@ nav {
 
     /* main */
     
-    .container {
+    .container,
+    .container-footer {
         width: 70%;
     }
 
@@ -307,4 +323,6 @@ nav {
     .about-us.card {
         width: 20%;
     }
+
+
 }
