@@ -9,6 +9,10 @@
 
 /********** GENERAL STYLES **********/
 
+h2 {
+    font-size: 1.9rem;
+}
+
 h3 {
     font-size: 1.7rem;
     color: #9792e4;
@@ -31,6 +35,22 @@ h6 {
     color: #9792e4;
 }
 
+.text-yellow {
+    color: yellow;
+}
+
+.thin { 
+    font-weight: 100;
+}
+
+.small-text {
+    font-size: 0.7rem;
+}
+
+.m-top {
+    margin-top: 2rem;
+}
+
 .m-bottom {
     margin-bottom: 2rem;
 }
@@ -48,6 +68,7 @@ h6 {
     border-radius: 25px;
     border: 1px solid transparent;
 }
+
 /********** HEADER **********/
 
 /********** NAVBAR **********/
@@ -151,10 +172,17 @@ nav {
 
 /********** ABOUT US **********/
 
-.linkedin {
+.linkedin-btn {
     color: white;
     background-color: #9792e4;
 }
+
+/********** GET STARTED **********/
+
+.cta-btn {
+    color: #9792e4;
+}
+
 /********** MEDIA QUERIES **********/
 
 @media screen and (min-width: 768px){
