@@ -178,7 +178,7 @@ nav {
     color: white;
     margin: 1rem;
     border-radius: 20px;
-    padding: 1rem;
+    padding: 3rem 1rem;
 }
 
 .test-img {
@@ -186,6 +186,8 @@ nav {
     height: 5rem;
     border-radius: 50%;
     object-fit: cover;
+    aspect-ratio: 1;
+
 }
 /********** BENEFITS **********/
 
